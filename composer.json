@@ -1,0 +1,46 @@
+{
+	"name": "volland/postvoyage-socialmedia-poster",
+	"description": "PostVoyage - Free Social Media Post Distributor for WordPress",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Alexander Volland"
+		}
+	],
+	"require": {
+		"php": ">=7.4"
+	},
+	"require-dev": {
+		"wp-coding-standards/wpcs": "^3.1",
+		"phpcompatibility/phpcompatibility-wp": "^2.1",
+		"dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+		"phpunit/phpunit": "^9.6"
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"PostVoyage\\Tests\\": "tests/"
+		}
+	},
+	"scripts": {
+		"lint": "phpcs",
+		"fix": "phpcbf",
+		"test": "phpunit",
+		"check": [
+			"@lint",
+			"@test"
+		],
+		"build": [
+			"@php -r \"is_dir('dist') || mkdir('dist');\"",
+			"git archive --format=zip --prefix=postvoyage-socialmedia-poster/ -o dist/postvoyage-socialmedia-poster.zip HEAD"
+		]
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		},
+		"platform": {
+			"php": "7.4.33"
+		}
+	}
+}

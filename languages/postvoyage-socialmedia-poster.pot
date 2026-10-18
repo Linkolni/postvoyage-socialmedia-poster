@@ -1,0 +1,867 @@
+# Copyright (C) 2026 Alexander Volland
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: PostVoyage - Free Social Media Post Distributor 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Alexander Volland\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-18T19:38:57+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: postvoyage-socialmedia-poster\n"
+
+#. Plugin Name of the plugin
+#: postvoyage-socialmedia-poster.php:3
+msgid "PostVoyage - Free Social Media Post Distributor"
+msgstr ""
+
+#. Description of the plugin
+#: postvoyage-socialmedia-poster.php:4
+msgid "Shares your posts automatically on Mastodon, Bluesky, Telegram, Discord, Facebook, Threads, LinkedIn, X and any webhook. Free, with rules per category and templates with variables."
+msgstr ""
+
+#. Author of the plugin
+#: postvoyage-socialmedia-poster.php:8
+msgid "Alexander Volland"
+msgstr ""
+
+#: src/Admin/AccountsPage.php:64
+msgid "PostVoyage accounts"
+msgstr ""
+
+#: src/Admin/AccountsPage.php:65
+#: src/Admin/AccountsPage.php:147
+#: src/Admin/MetaBox.php:65
+#: src/Admin/RulesPage.php:80
+msgid "Add account"
+msgstr ""
+
+#: src/Admin/AccountsPage.php:68
+msgid "Connect the profiles, pages and channels your posts should be shared to. Then decide in \"Rules\" which posts go where."
+msgstr ""
+
+#: src/Admin/AccountsPage.php:72
+#: src/Admin/RulesPage.php:79
+msgid "No accounts connected yet."
+msgstr ""
+
+#: src/Admin/AccountsPage.php:73
+msgid "Connect your first account"
+msgstr ""
+
+#: src/Admin/AccountsPage.php:83
+#: src/Admin/AccountsPage.php:169
+#: src/Admin/RulesPage.php:87
+#: src/Admin/RulesPage.php:183
+msgid "Name"
+msgstr ""
+
+#: src/Admin/AccountsPage.php:84
+#: src/Admin/AccountsPage.php:159
+msgid "Network"
+msgstr ""
+
+#: src/Admin/AccountsPage.php:85
+#: src/Admin/AccountsPage.php:176
+#: src/Admin/LogListTable.php:47
+#: src/Admin/RulesPage.php:90
+#: src/Admin/RulesPage.php:187
+msgid "Status"
+msgstr ""
+
+#: src/Admin/AccountsPage.php:86
+#: src/Admin/RulesPage.php:91
+msgid "Actions"
+msgstr ""
+
+#: src/Admin/AccountsPage.php:108
+msgid "Network missing"
+msgstr ""
+
+#: src/Admin/AccountsPage.php:110
+#: src/Admin/AccountsPage.php:177
+#: src/Admin/RulesPage.php:117
+#: src/Admin/RulesPage.php:188
+msgid "Active"
+msgstr ""
+
+#: src/Admin/AccountsPage.php:112
+#: src/Admin/RulesPage.php:119
+msgid "Paused"
+msgstr ""
+
+#: src/Admin/AccountsPage.php:127
+#: src/Admin/RulesPage.php:134
+msgid "Edit"
+msgstr ""
+
+#: src/Admin/AccountsPage.php:128
+msgid "Test connection"
+msgstr ""
+
+#: src/Admin/AccountsPage.php:129
+#: src/Admin/RulesPage.php:141
+msgid "Delete"
+msgstr ""
+
+#: src/Admin/AccountsPage.php:147
+msgid "Edit account"
+msgstr ""
+
+#: src/Admin/AccountsPage.php:148
+msgid "Back to accounts"
+msgstr ""
+
+#: src/Admin/AccountsPage.php:172
+msgid "Your own name for this account, e.g. \"Blog channel\"."
+msgstr ""
+
+#: src/Admin/AccountsPage.php:197
+msgid "Save and test connection"
+msgstr ""
+
+#: src/Admin/AccountsPage.php:238
+msgid "•••••••• saved – leave empty to keep"
+msgstr ""
+
+#: src/Admin/AccountsPage.php:303
+msgid "Account saved."
+msgstr ""
+
+#: src/Admin/AccountsPage.php:332
+msgid "Account deleted."
+msgstr ""
+
+#. translators: 1: account name, 2: result
+#: src/Admin/AccountsPage.php:349
+#, php-format
+msgid "Connection test \"%1$s\": %2$s"
+msgstr ""
+
+#: src/Admin/AccountsPage.php:358
+#: src/Admin/LogPage.php:58
+#: src/Admin/MetaBox.php:157
+#: src/Admin/RulesPage.php:408
+msgid "You are not allowed to do this."
+msgstr ""
+
+#: src/Admin/LogListTable.php:44
+msgid "Date"
+msgstr ""
+
+#: src/Admin/LogListTable.php:45
+msgid "Post"
+msgstr ""
+
+#: src/Admin/LogListTable.php:46
+msgid "Account"
+msgstr ""
+
+#: src/Admin/LogListTable.php:48
+msgid "Message"
+msgstr ""
+
+#: src/Admin/LogListTable.php:84
+#: src/Admin/RulesPage.php:371
+msgid "All"
+msgstr ""
+
+#: src/Admin/LogListTable.php:85
+msgid "Successful"
+msgstr ""
+
+#: src/Admin/LogListTable.php:86
+msgid "Errors"
+msgstr ""
+
+#: src/Admin/LogListTable.php:105
+msgid "Nothing shared yet."
+msgstr ""
+
+#: src/Admin/LogListTable.php:156
+msgid "Shared"
+msgstr ""
+
+#: src/Admin/LogListTable.php:156
+msgid "Error"
+msgstr ""
+
+#: src/Admin/LogListTable.php:169
+msgid "View post"
+msgstr ""
+
+#: src/Admin/LogPage.php:40
+#: src/Admin/Menu.php:37
+msgid "Log"
+msgstr ""
+
+#: src/Admin/LogPage.php:41
+msgid "Clear log"
+msgstr ""
+
+#: src/Admin/LogPage.php:62
+msgid "Log cleared."
+msgstr ""
+
+#: src/Admin/Menu.php:35
+#: src/Admin/RulesPage.php:89
+#: src/Admin/RulesPage.php:225
+msgid "Accounts"
+msgstr ""
+
+#: src/Admin/Menu.php:36
+#: src/Admin/RulesPage.php:71
+msgid "Rules"
+msgstr ""
+
+#: src/Admin/Menu.php:38
+#: src/Plugin.php:102
+msgid "Settings"
+msgstr ""
+
+#: src/Admin/Menu.php:63
+msgid "Sharing…"
+msgstr ""
+
+#: src/Admin/Menu.php:64
+msgid "Done."
+msgstr ""
+
+#: src/Admin/Menu.php:65
+msgid "Nothing was shared. Check the rules and accounts."
+msgstr ""
+
+#: src/Admin/Menu.php:66
+msgid "Request failed."
+msgstr ""
+
+#: src/Admin/Menu.php:67
+msgid "View"
+msgstr ""
+
+#: src/Admin/Menu.php:68
+msgid "Really delete?"
+msgstr ""
+
+#: src/Admin/MetaBox.php:63
+msgid "No active accounts."
+msgstr ""
+
+#: src/Admin/MetaBox.php:73
+msgid "Share on publish"
+msgstr ""
+
+#: src/Admin/MetaBox.php:78
+msgid "Custom text (optional)"
+msgstr ""
+
+#: src/Admin/MetaBox.php:79
+msgid "Empty = rule template. Variables like {title} {url} {hashtags} work here too."
+msgstr ""
+
+#: src/Admin/MetaBox.php:83
+msgid "Sharing is queued and runs in the background shortly."
+msgstr ""
+
+#: src/Admin/MetaBox.php:97
+msgid "shared"
+msgstr ""
+
+#: src/Admin/MetaBox.php:97
+msgid "failed – see log"
+msgstr ""
+
+#: src/Admin/MetaBox.php:105
+#: src/Admin/MetaBox.php:112
+msgid "Share now"
+msgstr ""
+
+#: src/Admin/MetaBox.php:111
+msgid "None selected = accounts from the matching rules. Saves nothing – save your changes first."
+msgstr ""
+
+#: src/Admin/RulesPage.php:72
+#: src/Admin/RulesPage.php:173
+msgid "Add rule"
+msgstr ""
+
+#: src/Admin/RulesPage.php:75
+msgid "A rule defines which posts (post type, category, language) are shared to which accounts and with which text. If several rules reach the same account, the topmost one wins."
+msgstr ""
+
+#: src/Admin/RulesPage.php:88
+#: src/Admin/RulesPage.php:202
+msgid "Categories"
+msgstr ""
+
+#: src/Admin/RulesPage.php:96
+msgid "No rules yet. Without a rule nothing is shared automatically."
+msgstr ""
+
+#: src/Admin/RulesPage.php:136
+msgid "Move up"
+msgstr ""
+
+#: src/Admin/RulesPage.php:139
+msgid "Move down"
+msgstr ""
+
+#: src/Admin/RulesPage.php:173
+msgid "Edit rule"
+msgstr ""
+
+#: src/Admin/RulesPage.php:174
+msgid "Back to rules"
+msgstr ""
+
+#: src/Admin/RulesPage.php:191
+#: src/Admin/SettingsPage.php:69
+msgid "Post types"
+msgstr ""
+
+#: src/Admin/RulesPage.php:198
+msgid "None selected = all post types enabled in the settings."
+msgstr ""
+
+#: src/Admin/RulesPage.php:207
+msgid "Include subcategories"
+msgstr ""
+
+#: src/Admin/RulesPage.php:208
+msgid "None selected = all categories."
+msgstr ""
+
+#: src/Admin/RulesPage.php:213
+msgid "Languages"
+msgstr ""
+
+#: src/Admin/RulesPage.php:220
+msgid "None selected = all languages. Tip: one rule per language lets you use a separate template and separate accounts per language."
+msgstr ""
+
+#: src/Admin/RulesPage.php:232
+msgid "None selected = all active accounts."
+msgstr ""
+
+#: src/Admin/RulesPage.php:236
+msgid "Text template"
+msgstr ""
+
+#: src/Admin/RulesPage.php:240
+msgid "Texts are shortened automatically to the limit of each network; links are never cut."
+msgstr ""
+
+#: src/Admin/RulesPage.php:245
+msgid "Per network"
+msgstr ""
+
+#. translators: %s: network name
+#: src/Admin/RulesPage.php:250
+#, php-format
+msgid "Own template for %s"
+msgstr ""
+
+#: src/Admin/RulesPage.php:251
+msgid "Empty = use the template above"
+msgstr ""
+
+#: src/Admin/RulesPage.php:258
+msgid "Image"
+msgstr ""
+
+#: src/Admin/RulesPage.php:259
+msgid "Share the featured image (where the network supports it)"
+msgstr ""
+
+#: src/Admin/RulesPage.php:263
+msgid "Save rule"
+msgstr ""
+
+#: src/Admin/RulesPage.php:272
+msgid "Insert:"
+msgstr ""
+
+#: src/Admin/RulesPage.php:324
+msgid "Rule saved."
+msgstr ""
+
+#: src/Admin/RulesPage.php:336
+msgid "Rule deleted."
+msgstr ""
+
+#: src/Admin/RulesPage.php:392
+msgid "All active"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:60
+msgid "PostVoyage settings"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:66
+msgid "Publishing"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:76
+msgid "PostVoyage only reacts to these post types."
+msgstr ""
+
+#: src/Admin/SettingsPage.php:80
+msgid "Default for new posts"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:81
+msgid "Share automatically on publish (can be changed per post)"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:84
+msgid "Delay"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:86
+msgid "seconds"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:87
+msgid "Sharing runs in the background after this delay. At least 30 seconds are recommended so that settings in the editor are saved and caches are warmed up."
+msgstr ""
+
+#: src/Admin/SettingsPage.php:92
+msgid "Tracking"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:95
+msgid "UTM parameters"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:97
+msgid "Add UTM parameters to {url}"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:103
+msgid "{network} is replaced with the network, e.g. \"mastodon\"."
+msgstr ""
+
+#: src/Admin/SettingsPage.php:108
+msgid "Maintenance"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:111
+msgid "Keep log for"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:112
+msgid "days"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:115
+msgid "Uninstall"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:116
+msgid "Delete all PostVoyage data (accounts, rules, log) when the plugin is deleted"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:123
+msgid "System"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:127
+msgid "Background processing"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:128
+msgid "Action Scheduler"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:135
+msgid "Yes – make sure a server cron job calls wp-cron.php regularly."
+msgstr ""
+
+#: src/Admin/SettingsPage.php:137
+msgid "No"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:143
+msgid "Multilingual plugin"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:144
+msgid "None detected (Polylang and WPML are supported)"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:147
+msgid "Version"
+msgstr ""
+
+#: src/Content/TemplateEngine.php:29
+msgid "Post title"
+msgstr ""
+
+#: src/Content/TemplateEngine.php:30
+msgid "Excerpt (or the beginning of the content)"
+msgstr ""
+
+#: src/Content/TemplateEngine.php:31
+msgid "Full content as plain text"
+msgstr ""
+
+#: src/Content/TemplateEngine.php:32
+msgid "Link to the post (with UTM parameters if enabled)"
+msgstr ""
+
+#: src/Content/TemplateEngine.php:33
+msgid "Link to the post without UTM parameters"
+msgstr ""
+
+#: src/Content/TemplateEngine.php:34
+msgid "WordPress short link (?p=123)"
+msgstr ""
+
+#: src/Content/TemplateEngine.php:35
+msgid "Tags as hashtags"
+msgstr ""
+
+#: src/Content/TemplateEngine.php:36
+msgid "Categories as hashtags"
+msgstr ""
+
+#: src/Content/TemplateEngine.php:37
+msgid "Tags, comma separated"
+msgstr ""
+
+#: src/Content/TemplateEngine.php:38
+msgid "Categories, comma separated"
+msgstr ""
+
+#: src/Content/TemplateEngine.php:39
+msgid "Author name"
+msgstr ""
+
+#: src/Content/TemplateEngine.php:40
+msgid "Publish date"
+msgstr ""
+
+#: src/Content/TemplateEngine.php:41
+msgid "Site title"
+msgstr ""
+
+#: src/Content/TemplateEngine.php:42
+msgid "Site address"
+msgstr ""
+
+#: src/Content/TemplateEngine.php:43
+msgid "Language code of the post"
+msgstr ""
+
+#: src/Content/TemplateEngine.php:44
+msgid "Name of the network"
+msgstr ""
+
+#: src/Content/TemplateEngine.php:45
+msgid "Value of the custom field \"field\""
+msgstr ""
+
+#: src/Distribution/Distributor.php:164
+msgid "Network not available."
+msgstr ""
+
+#: src/Networks/Bluesky.php:46
+msgid "In Bluesky open Settings → Privacy and security → App passwords and create a new app password. Never use your main password."
+msgstr ""
+
+#: src/Networks/Bluesky.php:55
+msgid "Handle"
+msgstr ""
+
+#: src/Networks/Bluesky.php:59
+msgid "e.g. name.bsky.social"
+msgstr ""
+
+#: src/Networks/Bluesky.php:63
+msgid "App password"
+msgstr ""
+
+#: src/Networks/Bluesky.php:71
+msgid "PDS server"
+msgstr ""
+
+#: src/Networks/Bluesky.php:75
+msgid "Only change this if you host your own PDS."
+msgstr ""
+
+#. translators: %s: account name
+#: src/Networks/Bluesky.php:164
+#: src/Networks/Mastodon.php:156
+#: src/Networks/Threads.php:163
+#: src/Networks/X.php:106
+#, php-format
+msgid "Connected as @%s"
+msgstr ""
+
+#: src/Networks/Bluesky.php:262
+msgid "Login failed."
+msgstr ""
+
+#: src/Networks/Bluesky.php:296
+#: src/Networks/Mastodon.php:195
+msgid "Image upload failed."
+msgstr ""
+
+#: src/Networks/Discord.php:46
+msgid "In Discord open the channel settings → Integrations → Webhooks → New webhook, then copy the webhook URL."
+msgstr ""
+
+#: src/Networks/Discord.php:55
+#: src/Networks/Webhook.php:47
+msgid "Webhook URL"
+msgstr ""
+
+#: src/Networks/Discord.php:63
+msgid "Display name"
+msgstr ""
+
+#: src/Networks/Discord.php:65
+msgid "Optional, overrides the webhook name."
+msgstr ""
+
+#: src/Networks/Discord.php:68
+msgid "Show as card (embed) with title and image"
+msgstr ""
+
+#. translators: %s: webhook name
+#: src/Networks/Discord.php:159
+#, php-format
+msgid "Webhook \"%s\" found"
+msgstr ""
+
+#: src/Networks/Discord.php:173
+msgid "This is not a Discord webhook URL."
+msgstr ""
+
+#: src/Networks/Facebook.php:43
+msgid "Create an app at developers.facebook.com, generate a long-lived page access token with the permissions pages_manage_posts and pages_read_engagement (e.g. with the Graph API Explorer) and enter the numeric page ID."
+msgstr ""
+
+#: src/Networks/Facebook.php:51
+msgid "Page ID"
+msgstr ""
+
+#: src/Networks/Facebook.php:53
+msgid "Page access token"
+msgstr ""
+
+#: src/Networks/Facebook.php:61
+msgid "Graph API version"
+msgstr ""
+
+#. translators: %s: version
+#: src/Networks/Facebook.php:65
+#, php-format
+msgid "Leave empty for the default (%s)."
+msgstr ""
+
+#. translators: %s: page name
+#: src/Networks/Facebook.php:117
+#, php-format
+msgid "Connected to page \"%s\""
+msgstr ""
+
+#: src/Networks/LinkedIn.php:38
+msgid "Create an app at linkedin.com/developers with the products \"Share on LinkedIn\" and \"Sign In with LinkedIn using OpenID Connect\" and generate an access token (scopes: openid, profile, w_member_social) with the OAuth token generator. Tokens are valid for 60 days. Leave the author empty to post as yourself; company pages need urn:li:organization:ID and the w_organization_social scope."
+msgstr ""
+
+#: src/Networks/LinkedIn.php:47
+#: src/Networks/Mastodon.php:57
+#: src/Networks/Threads.php:50
+#: src/Networks/X.php:55
+msgid "Access token"
+msgstr ""
+
+#: src/Networks/LinkedIn.php:55
+msgid "Author"
+msgstr ""
+
+#: src/Networks/LinkedIn.php:57
+msgid "Optional: urn:li:person:… or urn:li:organization:…"
+msgstr ""
+
+#: src/Networks/LinkedIn.php:60
+msgid "API version"
+msgstr ""
+
+#: src/Networks/LinkedIn.php:62
+msgid "Optional, format YYYYMM. Empty = automatically a recent version."
+msgstr ""
+
+#. translators: 1: name, 2: URN
+#: src/Networks/LinkedIn.php:137
+#, php-format
+msgid "Connected as %1$s (%2$s)"
+msgstr ""
+
+#: src/Networks/LinkedIn.php:164
+msgid "Could not determine the LinkedIn author. Please enter it in the account settings."
+msgstr ""
+
+#: src/Networks/Mastodon.php:39
+msgid "On your Mastodon server open Preferences → Development → New application. Scopes \"write:statuses\" and \"write:media\" are enough. Copy \"Your access token\"."
+msgstr ""
+
+#: src/Networks/Mastodon.php:48
+msgid "Server URL"
+msgstr ""
+
+#: src/Networks/Mastodon.php:53
+msgid "e.g. https://mastodon.social"
+msgstr ""
+
+#: src/Networks/Mastodon.php:65
+msgid "Visibility"
+msgstr ""
+
+#: src/Networks/Mastodon.php:70
+msgid "Public"
+msgstr ""
+
+#: src/Networks/Mastodon.php:71
+msgid "Unlisted"
+msgstr ""
+
+#: src/Networks/Mastodon.php:72
+msgid "Followers only"
+msgstr ""
+
+#: src/Networks/Mastodon.php:77
+#: src/Networks/Webhook.php:57
+msgid "Character limit"
+msgstr ""
+
+#: src/Networks/Mastodon.php:81
+msgid "Some servers allow more than 500."
+msgstr ""
+
+#: src/Networks/Mastodon.php:85
+msgid "Upload featured image"
+msgstr ""
+
+#: src/Networks/Mastodon.php:87
+msgid "Off: Mastodon shows a link preview card instead."
+msgstr ""
+
+#: src/Networks/Telegram.php:46
+msgid "Create a bot with @BotFather and copy the token. Add the bot as administrator to your channel. Chat ID: @channelname for public channels, otherwise the numeric ID (e.g. -100…)."
+msgstr ""
+
+#: src/Networks/Telegram.php:55
+msgid "Bot token"
+msgstr ""
+
+#: src/Networks/Telegram.php:63
+msgid "Chat ID"
+msgstr ""
+
+#: src/Networks/Telegram.php:67
+msgid "e.g. @mychannel or -1001234567890"
+msgstr ""
+
+#: src/Networks/Telegram.php:71
+msgid "Send featured image"
+msgstr ""
+
+#: src/Networks/Telegram.php:75
+msgid "With an image the text is limited to 1024 characters."
+msgstr ""
+
+#: src/Networks/Telegram.php:78
+msgid "Disable link preview"
+msgstr ""
+
+#: src/Networks/Telegram.php:79
+msgid "Send silently (no notification sound)"
+msgstr ""
+
+#. translators: 1: bot name, 2: chat title
+#: src/Networks/Telegram.php:166
+#, php-format
+msgid "Bot @%1$s can reach \"%2$s\""
+msgstr ""
+
+#: src/Networks/Threads.php:41
+msgid "Create a Meta app with the \"Threads API\" use case and the permissions threads_basic and threads_content_publish, then generate a long-lived access token. PostVoyage refreshes it weekly so it does not expire."
+msgstr ""
+
+#: src/Networks/Threads.php:58
+msgid "User ID"
+msgstr ""
+
+#: src/Networks/Threads.php:60
+msgid "Optional, \"me\" is used by default."
+msgstr ""
+
+#: src/Networks/Threads.php:104
+msgid "Threads did not return a container ID."
+msgstr ""
+
+#: src/Networks/Webhook.php:39
+msgid "Sends a JSON POST request with text, link, title, image URL, tags and language. With a secret, the header X-PostVoyage-Signature contains \"sha256=\" plus the HMAC of the body."
+msgstr ""
+
+#: src/Networks/Webhook.php:49
+msgid "Signing secret"
+msgstr ""
+
+#: src/Networks/Webhook.php:53
+msgid "Optional."
+msgstr ""
+
+#: src/Networks/Webhook.php:59
+msgid "Optional, empty = unlimited."
+msgstr ""
+
+#. translators: %d: HTTP status code
+#: src/Networks/Webhook.php:139
+#, php-format
+msgid "Webhook answered with HTTP %d"
+msgstr ""
+
+#: src/Networks/X.php:41
+msgid "Create a project and app at developer.x.com, set the app permissions to \"Read and write\" and then generate API key/secret and access token/secret. Note: how many posts the X API allows depends on your API plan."
+msgstr ""
+
+#: src/Networks/X.php:53
+msgid "API key"
+msgstr ""
+
+#: src/Networks/X.php:54
+msgid "API key secret"
+msgstr ""
+
+#: src/Networks/X.php:56
+msgid "Access token secret"
+msgstr ""
+
+#: src/Plugin.php:113
+msgid "When a post is published, this site sends the post title, excerpt, link and featured image to the social networks configured by the site owner (for example Mastodon, Bluesky, Telegram, Discord, Facebook, Threads, LinkedIn or X). No data about visitors is transmitted."
+msgstr ""
+
+#: src/Storage/AccountRepository.php:136
+msgid "Unknown network."
+msgstr ""
+
+#. translators: %s: field label
+#: src/Storage/AccountRepository.php:165
+#, php-format
+msgid "Please fill in \"%s\"."
+msgstr ""
+
+#: src/Storage/RuleRepository.php:112
+msgid "All posts"
+msgstr ""
+
+#: src/Storage/RuleRepository.php:145
+msgid "Unnamed rule"
+msgstr ""

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<ruleset name="PostVoyage">
+	<description>WordPress Coding Standards for PostVoyage.</description>
+
+	<file>.</file>
+	<exclude-pattern>/vendor/*</exclude-pattern>
+	<exclude-pattern>/node_modules/*</exclude-pattern>
+	<exclude-pattern>/build/*</exclude-pattern>
+	<exclude-pattern>/tests/*</exclude-pattern>
+	<exclude-pattern>/languages/*</exclude-pattern>
+	<exclude-pattern>/dist/*</exclude-pattern>
+
+	<arg name="extensions" value="php"/>
+	<arg name="colors"/>
+	<arg value="sp"/>
+	<arg name="parallel" value="8"/>
+
+	<config name="testVersion" value="7.4-"/>
+	<config name="minimum_wp_version" value="6.5"/>
+
+	<rule ref="WordPress"/>
+	<rule ref="PHPCompatibilityWP"/>
+
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="postvoyage-socialmedia-poster"/>
+			</property>
+		</properties>
+	</rule>
+
+	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+		<properties>
+			<property name="prefixes" type="array">
+				<element value="postvoyage"/>
+				<element value="PostVoyage"/>
+			</property>
+		</properties>
+	</rule>
+
+	<!-- Exception messages are only logged and escaped on output (Logger/LogListTable), never echoed. -->
+	<rule ref="WordPress.Security.EscapeOutput.ExceptionNotEscaped">
+		<exclude-pattern>/src/Networks/*</exclude-pattern>
+		<exclude-pattern>/src/Distribution/*</exclude-pattern>
+	</rule>
+
+	<!-- PSR-4 file names (src/Networks/Mastodon.php) instead of class-mastodon.php. -->
+	<rule ref="WordPress.Files.FileName">
+		<exclude-pattern>/src/*</exclude-pattern>
+	</rule>
+</ruleset>

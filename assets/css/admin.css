@@ -1,0 +1,133 @@
+/* PostVoyage admin styles. Uses WordPress admin colors and components where possible. */
+
+.postvoyage .postvoyage-table {
+	margin-top: 1em;
+}
+
+.postvoyage .postvoyage-empty {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	padding: 1.5em;
+	margin-top: 1em;
+	text-align: center;
+}
+
+.postvoyage-status {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 10px;
+	background: #f0f0f1;
+	color: #50575e;
+	font-size: 12px;
+	line-height: 1.6;
+}
+
+.postvoyage-status--success {
+	background: #edfaef;
+	color: #00631c;
+}
+
+.postvoyage-status--error {
+	background: #fcf0f1;
+	color: #8a2424;
+}
+
+.postvoyage-muted {
+	color: #646970;
+}
+
+.postvoyage-required {
+	color: #d63638;
+}
+
+.postvoyage-help {
+	background: #f0f6fc;
+	border-left: 4px solid #72aee6;
+	padding: 10px 12px;
+	margin: 1em 0 0;
+	max-width: 760px;
+}
+
+.postvoyage-check,
+.postvoyage .form-table td fieldset label.postvoyage-check {
+	display: block;
+	margin: 0 0 6px !important;
+}
+
+.postvoyage-checklist {
+	max-height: 260px;
+	overflow: auto;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	padding: 8px 12px;
+	max-width: 480px;
+	margin-bottom: 8px;
+}
+
+.postvoyage-checklist ul {
+	margin: 0;
+}
+
+.postvoyage-checklist ul ul {
+	margin-left: 1.5em;
+}
+
+.postvoyage-template {
+	max-width: 760px;
+}
+
+.postvoyage-variables {
+	margin: 6px 0;
+	max-width: 760px;
+}
+
+.postvoyage-variables > span {
+	margin-right: 4px;
+}
+
+.postvoyage-variables .button {
+	margin: 0 2px 4px 0;
+	font-family: Consolas, Monaco, monospace;
+}
+
+.postvoyage-override {
+	margin-bottom: 8px;
+	max-width: 760px;
+}
+
+.postvoyage-override summary {
+	cursor: pointer;
+	padding: 4px 0;
+}
+
+/* Editor box */
+.postvoyage-box .postvoyage-shares {
+	margin: 8px 0;
+}
+
+.postvoyage-box .postvoyage-shares li {
+	margin-bottom: 4px;
+}
+
+.postvoyage-dot {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	margin-right: 4px;
+	background: #d63638;
+}
+
+.postvoyage-dot--success {
+	background: #00a32a;
+}
+
+.postvoyage-share-now summary {
+	cursor: pointer;
+	font-weight: 600;
+	margin: 8px 0;
+}
+
+.postvoyage-share-result ul {
+	margin: 8px 0 0;
+}

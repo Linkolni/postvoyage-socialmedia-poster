@@ -1,0 +1,869 @@
+# German translation of PostVoyage.
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: PostVoyage - Free Social Media Post Distributor 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Alexander Volland\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: 2026-10-18T19:38:57+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: postvoyage-socialmedia-poster\n"
+
+#. Plugin Name of the plugin
+#: postvoyage-socialmedia-poster.php:3
+msgid "PostVoyage - Free Social Media Post Distributor"
+msgstr "PostVoyage - Free Social Media Post Distributor"
+
+#. Description of the plugin
+#: postvoyage-socialmedia-poster.php:4
+msgid "Shares your posts automatically on Mastodon, Bluesky, Telegram, Discord, Facebook, Threads, LinkedIn, X and any webhook. Free, with rules per category and templates with variables."
+msgstr "Teilt deine Beiträge automatisch auf Mastodon, Bluesky, Telegram, Discord, Facebook, Threads, LinkedIn, X und per Webhook. Kostenlos, mit Regeln je Kategorie und Vorlagen mit Variablen."
+
+#. Author of the plugin
+#: postvoyage-socialmedia-poster.php:8
+msgid "Alexander Volland"
+msgstr "Alexander Volland"
+
+#: src/Admin/AccountsPage.php:64
+msgid "PostVoyage accounts"
+msgstr "PostVoyage-Konten"
+
+#: src/Admin/AccountsPage.php:65
+#: src/Admin/AccountsPage.php:147
+#: src/Admin/MetaBox.php:65
+#: src/Admin/RulesPage.php:80
+msgid "Add account"
+msgstr "Konto hinzufügen"
+
+#: src/Admin/AccountsPage.php:68
+msgid "Connect the profiles, pages and channels your posts should be shared to. Then decide in \"Rules\" which posts go where."
+msgstr "Verbinde die Profile, Seiten und Kanäle, auf denen deine Beiträge erscheinen sollen. Unter „Regeln“ legst du dann fest, welche Beiträge wohin gehen."
+
+#: src/Admin/AccountsPage.php:72
+#: src/Admin/RulesPage.php:79
+msgid "No accounts connected yet."
+msgstr "Noch keine Konten verbunden."
+
+#: src/Admin/AccountsPage.php:73
+msgid "Connect your first account"
+msgstr "Erstes Konto verbinden"
+
+#: src/Admin/AccountsPage.php:83
+#: src/Admin/AccountsPage.php:169
+#: src/Admin/RulesPage.php:87
+#: src/Admin/RulesPage.php:183
+msgid "Name"
+msgstr "Name"
+
+#: src/Admin/AccountsPage.php:84
+#: src/Admin/AccountsPage.php:159
+msgid "Network"
+msgstr "Netzwerk"
+
+#: src/Admin/AccountsPage.php:85
+#: src/Admin/AccountsPage.php:176
+#: src/Admin/LogListTable.php:47
+#: src/Admin/RulesPage.php:90
+#: src/Admin/RulesPage.php:187
+msgid "Status"
+msgstr "Status"
+
+#: src/Admin/AccountsPage.php:86
+#: src/Admin/RulesPage.php:91
+msgid "Actions"
+msgstr "Aktionen"
+
+#: src/Admin/AccountsPage.php:108
+msgid "Network missing"
+msgstr "Netzwerk fehlt"
+
+#: src/Admin/AccountsPage.php:110
+#: src/Admin/AccountsPage.php:177
+#: src/Admin/RulesPage.php:117
+#: src/Admin/RulesPage.php:188
+msgid "Active"
+msgstr "Aktiv"
+
+#: src/Admin/AccountsPage.php:112
+#: src/Admin/RulesPage.php:119
+msgid "Paused"
+msgstr "Pausiert"
+
+#: src/Admin/AccountsPage.php:127
+#: src/Admin/RulesPage.php:134
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: src/Admin/AccountsPage.php:128
+msgid "Test connection"
+msgstr "Verbindung testen"
+
+#: src/Admin/AccountsPage.php:129
+#: src/Admin/RulesPage.php:141
+msgid "Delete"
+msgstr "Löschen"
+
+#: src/Admin/AccountsPage.php:147
+msgid "Edit account"
+msgstr "Konto bearbeiten"
+
+#: src/Admin/AccountsPage.php:148
+msgid "Back to accounts"
+msgstr "Zurück zu den Konten"
+
+#: src/Admin/AccountsPage.php:172
+msgid "Your own name for this account, e.g. \"Blog channel\"."
+msgstr "Dein eigener Name für dieses Konto, z. B. „Blog-Kanal“."
+
+#: src/Admin/AccountsPage.php:197
+msgid "Save and test connection"
+msgstr "Speichern und Verbindung testen"
+
+#: src/Admin/AccountsPage.php:238
+msgid "•••••••• saved – leave empty to keep"
+msgstr "•••••••• gespeichert – leer lassen zum Behalten"
+
+#: src/Admin/AccountsPage.php:303
+msgid "Account saved."
+msgstr "Konto gespeichert."
+
+#: src/Admin/AccountsPage.php:332
+msgid "Account deleted."
+msgstr "Konto gelöscht."
+
+#. translators: 1: account name, 2: result
+#: src/Admin/AccountsPage.php:349
+#, php-format
+msgid "Connection test \"%1$s\": %2$s"
+msgstr "Verbindungstest „%1$s“: %2$s"
+
+#: src/Admin/AccountsPage.php:358
+#: src/Admin/LogPage.php:58
+#: src/Admin/MetaBox.php:157
+#: src/Admin/RulesPage.php:408
+msgid "You are not allowed to do this."
+msgstr "Dazu fehlt dir die Berechtigung."
+
+#: src/Admin/LogListTable.php:44
+msgid "Date"
+msgstr "Datum"
+
+#: src/Admin/LogListTable.php:45
+msgid "Post"
+msgstr "Beitrag"
+
+#: src/Admin/LogListTable.php:46
+msgid "Account"
+msgstr "Konto"
+
+#: src/Admin/LogListTable.php:48
+msgid "Message"
+msgstr "Meldung"
+
+#: src/Admin/LogListTable.php:84
+#: src/Admin/RulesPage.php:371
+msgid "All"
+msgstr "Alle"
+
+#: src/Admin/LogListTable.php:85
+msgid "Successful"
+msgstr "Erfolgreich"
+
+#: src/Admin/LogListTable.php:86
+msgid "Errors"
+msgstr "Fehler"
+
+#: src/Admin/LogListTable.php:105
+msgid "Nothing shared yet."
+msgstr "Noch nichts geteilt."
+
+#: src/Admin/LogListTable.php:156
+msgid "Shared"
+msgstr "Geteilt"
+
+#: src/Admin/LogListTable.php:156
+msgid "Error"
+msgstr "Fehler"
+
+#: src/Admin/LogListTable.php:169
+msgid "View post"
+msgstr "Beitrag ansehen"
+
+#: src/Admin/LogPage.php:40
+#: src/Admin/Menu.php:37
+msgid "Log"
+msgstr "Protokoll"
+
+#: src/Admin/LogPage.php:41
+msgid "Clear log"
+msgstr "Protokoll leeren"
+
+#: src/Admin/LogPage.php:62
+msgid "Log cleared."
+msgstr "Protokoll geleert."
+
+#: src/Admin/Menu.php:35
+#: src/Admin/RulesPage.php:89
+#: src/Admin/RulesPage.php:225
+msgid "Accounts"
+msgstr "Konten"
+
+#: src/Admin/Menu.php:36
+#: src/Admin/RulesPage.php:71
+msgid "Rules"
+msgstr "Regeln"
+
+#: src/Admin/Menu.php:38
+#: src/Plugin.php:102
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: src/Admin/Menu.php:63
+msgid "Sharing…"
+msgstr "Wird geteilt …"
+
+#: src/Admin/Menu.php:64
+msgid "Done."
+msgstr "Fertig."
+
+#: src/Admin/Menu.php:65
+msgid "Nothing was shared. Check the rules and accounts."
+msgstr "Es wurde nichts geteilt. Prüfe Regeln und Konten."
+
+#: src/Admin/Menu.php:66
+msgid "Request failed."
+msgstr "Anfrage fehlgeschlagen."
+
+#: src/Admin/Menu.php:67
+msgid "View"
+msgstr "Ansehen"
+
+#: src/Admin/Menu.php:68
+msgid "Really delete?"
+msgstr "Wirklich löschen?"
+
+#: src/Admin/MetaBox.php:63
+msgid "No active accounts."
+msgstr "Keine aktiven Konten."
+
+#: src/Admin/MetaBox.php:73
+msgid "Share on publish"
+msgstr "Beim Veröffentlichen teilen"
+
+#: src/Admin/MetaBox.php:78
+msgid "Custom text (optional)"
+msgstr "Eigener Text (optional)"
+
+#: src/Admin/MetaBox.php:79
+msgid "Empty = rule template. Variables like {title} {url} {hashtags} work here too."
+msgstr "Leer = Vorlage der Regel. Variablen wie {title} {url} {hashtags} funktionieren auch hier."
+
+#: src/Admin/MetaBox.php:83
+msgid "Sharing is queued and runs in the background shortly."
+msgstr "Das Teilen ist eingeplant und läuft gleich im Hintergrund."
+
+#: src/Admin/MetaBox.php:97
+msgid "shared"
+msgstr "geteilt"
+
+#: src/Admin/MetaBox.php:97
+msgid "failed – see log"
+msgstr "fehlgeschlagen – siehe Protokoll"
+
+#: src/Admin/MetaBox.php:105
+#: src/Admin/MetaBox.php:112
+msgid "Share now"
+msgstr "Jetzt teilen"
+
+#: src/Admin/MetaBox.php:111
+msgid "None selected = accounts from the matching rules. Saves nothing – save your changes first."
+msgstr "Keins ausgewählt = Konten aus den passenden Regeln. Speichert nichts – speichere Änderungen vorher."
+
+#: src/Admin/RulesPage.php:72
+#: src/Admin/RulesPage.php:173
+msgid "Add rule"
+msgstr "Regel hinzufügen"
+
+#: src/Admin/RulesPage.php:75
+msgid "A rule defines which posts (post type, category, language) are shared to which accounts and with which text. If several rules reach the same account, the topmost one wins."
+msgstr "Eine Regel legt fest, welche Beiträge (Inhaltstyp, Kategorie, Sprache) mit welchem Text auf welchen Konten geteilt werden. Treffen mehrere Regeln dasselbe Konto, gewinnt die oberste."
+
+#: src/Admin/RulesPage.php:88
+#: src/Admin/RulesPage.php:202
+msgid "Categories"
+msgstr "Kategorien"
+
+#: src/Admin/RulesPage.php:96
+msgid "No rules yet. Without a rule nothing is shared automatically."
+msgstr "Noch keine Regeln. Ohne Regel wird nichts automatisch geteilt."
+
+#: src/Admin/RulesPage.php:136
+msgid "Move up"
+msgstr "Nach oben"
+
+#: src/Admin/RulesPage.php:139
+msgid "Move down"
+msgstr "Nach unten"
+
+#: src/Admin/RulesPage.php:173
+msgid "Edit rule"
+msgstr "Regel bearbeiten"
+
+#: src/Admin/RulesPage.php:174
+msgid "Back to rules"
+msgstr "Zurück zu den Regeln"
+
+#: src/Admin/RulesPage.php:191
+#: src/Admin/SettingsPage.php:69
+msgid "Post types"
+msgstr "Inhaltstypen"
+
+#: src/Admin/RulesPage.php:198
+msgid "None selected = all post types enabled in the settings."
+msgstr "Keiner ausgewählt = alle in den Einstellungen aktivierten Inhaltstypen."
+
+#: src/Admin/RulesPage.php:207
+msgid "Include subcategories"
+msgstr "Unterkategorien einschließen"
+
+#: src/Admin/RulesPage.php:208
+msgid "None selected = all categories."
+msgstr "Keine ausgewählt = alle Kategorien."
+
+#: src/Admin/RulesPage.php:213
+msgid "Languages"
+msgstr "Sprachen"
+
+#: src/Admin/RulesPage.php:220
+msgid "None selected = all languages. Tip: one rule per language lets you use a separate template and separate accounts per language."
+msgstr "Keine ausgewählt = alle Sprachen. Tipp: Mit einer Regel pro Sprache kannst du je Sprache eigene Vorlagen und Konten nutzen."
+
+#: src/Admin/RulesPage.php:232
+msgid "None selected = all active accounts."
+msgstr "Keins ausgewählt = alle aktiven Konten."
+
+#: src/Admin/RulesPage.php:236
+msgid "Text template"
+msgstr "Textvorlage"
+
+#: src/Admin/RulesPage.php:240
+msgid "Texts are shortened automatically to the limit of each network; links are never cut."
+msgstr "Texte werden automatisch auf das Limit des jeweiligen Netzwerks gekürzt; Links werden nie abgeschnitten."
+
+#: src/Admin/RulesPage.php:245
+msgid "Per network"
+msgstr "Pro Netzwerk"
+
+#. translators: %s: network name
+#: src/Admin/RulesPage.php:250
+#, php-format
+msgid "Own template for %s"
+msgstr "Eigene Vorlage für %s"
+
+#: src/Admin/RulesPage.php:251
+msgid "Empty = use the template above"
+msgstr "Leer = Vorlage oben verwenden"
+
+#: src/Admin/RulesPage.php:258
+msgid "Image"
+msgstr "Bild"
+
+#: src/Admin/RulesPage.php:259
+msgid "Share the featured image (where the network supports it)"
+msgstr "Beitragsbild mitsenden (wo das Netzwerk es unterstützt)"
+
+#: src/Admin/RulesPage.php:263
+msgid "Save rule"
+msgstr "Regel speichern"
+
+#: src/Admin/RulesPage.php:272
+msgid "Insert:"
+msgstr "Einfügen:"
+
+#: src/Admin/RulesPage.php:324
+msgid "Rule saved."
+msgstr "Regel gespeichert."
+
+#: src/Admin/RulesPage.php:336
+msgid "Rule deleted."
+msgstr "Regel gelöscht."
+
+#: src/Admin/RulesPage.php:392
+msgid "All active"
+msgstr "Alle aktiven"
+
+#: src/Admin/SettingsPage.php:60
+msgid "PostVoyage settings"
+msgstr "PostVoyage-Einstellungen"
+
+#: src/Admin/SettingsPage.php:66
+msgid "Publishing"
+msgstr "Veröffentlichen"
+
+#: src/Admin/SettingsPage.php:76
+msgid "PostVoyage only reacts to these post types."
+msgstr "PostVoyage reagiert nur auf diese Inhaltstypen."
+
+#: src/Admin/SettingsPage.php:80
+msgid "Default for new posts"
+msgstr "Standard für neue Beiträge"
+
+#: src/Admin/SettingsPage.php:81
+msgid "Share automatically on publish (can be changed per post)"
+msgstr "Beim Veröffentlichen automatisch teilen (pro Beitrag änderbar)"
+
+#: src/Admin/SettingsPage.php:84
+msgid "Delay"
+msgstr "Verzögerung"
+
+#: src/Admin/SettingsPage.php:86
+msgid "seconds"
+msgstr "Sekunden"
+
+#: src/Admin/SettingsPage.php:87
+msgid "Sharing runs in the background after this delay. At least 30 seconds are recommended so that settings in the editor are saved and caches are warmed up."
+msgstr "Das Teilen läuft nach dieser Verzögerung im Hintergrund. Empfohlen sind mindestens 30 Sekunden, damit Einstellungen im Editor gespeichert und Caches aufgewärmt sind."
+
+#: src/Admin/SettingsPage.php:92
+msgid "Tracking"
+msgstr "Tracking"
+
+#: src/Admin/SettingsPage.php:95
+msgid "UTM parameters"
+msgstr "UTM-Parameter"
+
+#: src/Admin/SettingsPage.php:97
+msgid "Add UTM parameters to {url}"
+msgstr "UTM-Parameter an {url} anhängen"
+
+#: src/Admin/SettingsPage.php:103
+msgid "{network} is replaced with the network, e.g. \"mastodon\"."
+msgstr "{network} wird durch das Netzwerk ersetzt, z. B. „mastodon“."
+
+#: src/Admin/SettingsPage.php:108
+msgid "Maintenance"
+msgstr "Wartung"
+
+#: src/Admin/SettingsPage.php:111
+msgid "Keep log for"
+msgstr "Protokoll aufbewahren für"
+
+#: src/Admin/SettingsPage.php:112
+msgid "days"
+msgstr "Tage"
+
+#: src/Admin/SettingsPage.php:115
+msgid "Uninstall"
+msgstr "Deinstallation"
+
+#: src/Admin/SettingsPage.php:116
+msgid "Delete all PostVoyage data (accounts, rules, log) when the plugin is deleted"
+msgstr "Alle PostVoyage-Daten (Konten, Regeln, Protokoll) beim Löschen des Plugins entfernen"
+
+#: src/Admin/SettingsPage.php:123
+msgid "System"
+msgstr "System"
+
+#: src/Admin/SettingsPage.php:127
+msgid "Background processing"
+msgstr "Hintergrundverarbeitung"
+
+#: src/Admin/SettingsPage.php:128
+msgid "Action Scheduler"
+msgstr "Action Scheduler"
+
+#: src/Admin/SettingsPage.php:135
+msgid "Yes – make sure a server cron job calls wp-cron.php regularly."
+msgstr "Ja – stelle sicher, dass ein Server-Cronjob wp-cron.php regelmäßig aufruft."
+
+#: src/Admin/SettingsPage.php:137
+msgid "No"
+msgstr "Nein"
+
+#: src/Admin/SettingsPage.php:143
+msgid "Multilingual plugin"
+msgstr "Mehrsprachigkeits-Plugin"
+
+#: src/Admin/SettingsPage.php:144
+msgid "None detected (Polylang and WPML are supported)"
+msgstr "Keins erkannt (Polylang und WPML werden unterstützt)"
+
+#: src/Admin/SettingsPage.php:147
+msgid "Version"
+msgstr "Version"
+
+#: src/Content/TemplateEngine.php:29
+msgid "Post title"
+msgstr "Beitragstitel"
+
+#: src/Content/TemplateEngine.php:30
+msgid "Excerpt (or the beginning of the content)"
+msgstr "Textauszug (oder der Anfang des Inhalts)"
+
+#: src/Content/TemplateEngine.php:31
+msgid "Full content as plain text"
+msgstr "Gesamter Inhalt als reiner Text"
+
+#: src/Content/TemplateEngine.php:32
+msgid "Link to the post (with UTM parameters if enabled)"
+msgstr "Link zum Beitrag (mit UTM-Parametern, falls aktiviert)"
+
+#: src/Content/TemplateEngine.php:33
+msgid "Link to the post without UTM parameters"
+msgstr "Link zum Beitrag ohne UTM-Parameter"
+
+#: src/Content/TemplateEngine.php:34
+msgid "WordPress short link (?p=123)"
+msgstr "WordPress-Kurzlink (?p=123)"
+
+#: src/Content/TemplateEngine.php:35
+msgid "Tags as hashtags"
+msgstr "Schlagwörter als Hashtags"
+
+#: src/Content/TemplateEngine.php:36
+msgid "Categories as hashtags"
+msgstr "Kategorien als Hashtags"
+
+#: src/Content/TemplateEngine.php:37
+msgid "Tags, comma separated"
+msgstr "Schlagwörter, durch Komma getrennt"
+
+#: src/Content/TemplateEngine.php:38
+msgid "Categories, comma separated"
+msgstr "Kategorien, durch Komma getrennt"
+
+#: src/Content/TemplateEngine.php:39
+msgid "Author name"
+msgstr "Name des Autors"
+
+#: src/Content/TemplateEngine.php:40
+msgid "Publish date"
+msgstr "Veröffentlichungsdatum"
+
+#: src/Content/TemplateEngine.php:41
+msgid "Site title"
+msgstr "Titel der Website"
+
+#: src/Content/TemplateEngine.php:42
+msgid "Site address"
+msgstr "Adresse der Website"
+
+#: src/Content/TemplateEngine.php:43
+msgid "Language code of the post"
+msgstr "Sprachcode des Beitrags"
+
+#: src/Content/TemplateEngine.php:44
+msgid "Name of the network"
+msgstr "Name des Netzwerks"
+
+#: src/Content/TemplateEngine.php:45
+msgid "Value of the custom field \"field\""
+msgstr "Wert des benutzerdefinierten Feldes „field“"
+
+#: src/Distribution/Distributor.php:164
+msgid "Network not available."
+msgstr "Netzwerk nicht verfügbar."
+
+#: src/Networks/Bluesky.php:46
+msgid "In Bluesky open Settings → Privacy and security → App passwords and create a new app password. Never use your main password."
+msgstr "Öffne in Bluesky Einstellungen → Privatsphäre und Sicherheit → App-Passwörter und erstelle ein neues App-Passwort. Verwende nie dein Hauptpasswort."
+
+#: src/Networks/Bluesky.php:55
+msgid "Handle"
+msgstr "Handle"
+
+#: src/Networks/Bluesky.php:59
+msgid "e.g. name.bsky.social"
+msgstr "z. B. name.bsky.social"
+
+#: src/Networks/Bluesky.php:63
+msgid "App password"
+msgstr "App-Passwort"
+
+#: src/Networks/Bluesky.php:71
+msgid "PDS server"
+msgstr "PDS-Server"
+
+#: src/Networks/Bluesky.php:75
+msgid "Only change this if you host your own PDS."
+msgstr "Nur ändern, wenn du einen eigenen PDS betreibst."
+
+#. translators: %s: account name
+#: src/Networks/Bluesky.php:164
+#: src/Networks/Mastodon.php:156
+#: src/Networks/Threads.php:163
+#: src/Networks/X.php:106
+#, php-format
+msgid "Connected as @%s"
+msgstr "Verbunden als @%s"
+
+#: src/Networks/Bluesky.php:262
+msgid "Login failed."
+msgstr "Anmeldung fehlgeschlagen."
+
+#: src/Networks/Bluesky.php:296
+#: src/Networks/Mastodon.php:195
+msgid "Image upload failed."
+msgstr "Bild-Upload fehlgeschlagen."
+
+#: src/Networks/Discord.php:46
+msgid "In Discord open the channel settings → Integrations → Webhooks → New webhook, then copy the webhook URL."
+msgstr "Öffne in Discord die Kanaleinstellungen → Integrationen → Webhooks → Neuer Webhook und kopiere die Webhook-URL."
+
+#: src/Networks/Discord.php:55
+#: src/Networks/Webhook.php:47
+msgid "Webhook URL"
+msgstr "Webhook-URL"
+
+#: src/Networks/Discord.php:63
+msgid "Display name"
+msgstr "Anzeigename"
+
+#: src/Networks/Discord.php:65
+msgid "Optional, overrides the webhook name."
+msgstr "Optional, überschreibt den Namen des Webhooks."
+
+#: src/Networks/Discord.php:68
+msgid "Show as card (embed) with title and image"
+msgstr "Als Karte (Embed) mit Titel und Bild anzeigen"
+
+#. translators: %s: webhook name
+#: src/Networks/Discord.php:159
+#, php-format
+msgid "Webhook \"%s\" found"
+msgstr "Webhook „%s“ gefunden"
+
+#: src/Networks/Discord.php:173
+msgid "This is not a Discord webhook URL."
+msgstr "Das ist keine Discord-Webhook-URL."
+
+#: src/Networks/Facebook.php:43
+msgid "Create an app at developers.facebook.com, generate a long-lived page access token with the permissions pages_manage_posts and pages_read_engagement (e.g. with the Graph API Explorer) and enter the numeric page ID."
+msgstr "Lege auf developers.facebook.com eine App an, erzeuge ein langlebiges Seiten-Zugriffstoken mit den Berechtigungen pages_manage_posts und pages_read_engagement (z. B. mit dem Graph API Explorer) und trage die numerische Seiten-ID ein."
+
+#: src/Networks/Facebook.php:51
+msgid "Page ID"
+msgstr "Seiten-ID"
+
+#: src/Networks/Facebook.php:53
+msgid "Page access token"
+msgstr "Seiten-Zugriffstoken"
+
+#: src/Networks/Facebook.php:61
+msgid "Graph API version"
+msgstr "Graph-API-Version"
+
+#. translators: %s: version
+#: src/Networks/Facebook.php:65
+#, php-format
+msgid "Leave empty for the default (%s)."
+msgstr "Leer lassen für den Standard (%s)."
+
+#. translators: %s: page name
+#: src/Networks/Facebook.php:117
+#, php-format
+msgid "Connected to page \"%s\""
+msgstr "Verbunden mit Seite „%s“"
+
+#: src/Networks/LinkedIn.php:38
+msgid "Create an app at linkedin.com/developers with the products \"Share on LinkedIn\" and \"Sign In with LinkedIn using OpenID Connect\" and generate an access token (scopes: openid, profile, w_member_social) with the OAuth token generator. Tokens are valid for 60 days. Leave the author empty to post as yourself; company pages need urn:li:organization:ID and the w_organization_social scope."
+msgstr "Lege auf linkedin.com/developers eine App mit den Produkten „Share on LinkedIn“ und „Sign In with LinkedIn using OpenID Connect“ an und erzeuge mit dem OAuth-Token-Generator ein Zugriffstoken (Scopes: openid, profile, w_member_social). Tokens gelten 60 Tage. Lass den Autor leer, um als du selbst zu posten; für Unternehmensseiten brauchst du urn:li:organization:ID und den Scope w_organization_social."
+
+#: src/Networks/LinkedIn.php:47
+#: src/Networks/Mastodon.php:57
+#: src/Networks/Threads.php:50
+#: src/Networks/X.php:55
+msgid "Access token"
+msgstr "Zugriffstoken"
+
+#: src/Networks/LinkedIn.php:55
+msgid "Author"
+msgstr "Autor"
+
+#: src/Networks/LinkedIn.php:57
+msgid "Optional: urn:li:person:… or urn:li:organization:…"
+msgstr "Optional: urn:li:person:… oder urn:li:organization:…"
+
+#: src/Networks/LinkedIn.php:60
+msgid "API version"
+msgstr "API-Version"
+
+#: src/Networks/LinkedIn.php:62
+msgid "Optional, format YYYYMM. Empty = automatically a recent version."
+msgstr "Optional, Format JJJJMM. Leer = automatisch eine aktuelle Version."
+
+#. translators: 1: name, 2: URN
+#: src/Networks/LinkedIn.php:137
+#, php-format
+msgid "Connected as %1$s (%2$s)"
+msgstr "Verbunden als %1$s (%2$s)"
+
+#: src/Networks/LinkedIn.php:164
+msgid "Could not determine the LinkedIn author. Please enter it in the account settings."
+msgstr "Der LinkedIn-Autor konnte nicht ermittelt werden. Bitte trage ihn in den Kontoeinstellungen ein."
+
+#: src/Networks/Mastodon.php:39
+msgid "On your Mastodon server open Preferences → Development → New application. Scopes \"write:statuses\" and \"write:media\" are enough. Copy \"Your access token\"."
+msgstr "Öffne auf deinem Mastodon-Server Einstellungen → Entwicklung → Neue Anwendung. Die Scopes „write:statuses“ und „write:media“ reichen. Kopiere „Dein Zugriffstoken“."
+
+#: src/Networks/Mastodon.php:48
+msgid "Server URL"
+msgstr "Server-URL"
+
+#: src/Networks/Mastodon.php:53
+msgid "e.g. https://mastodon.social"
+msgstr "z. B. https://mastodon.social"
+
+#: src/Networks/Mastodon.php:65
+msgid "Visibility"
+msgstr "Sichtbarkeit"
+
+#: src/Networks/Mastodon.php:70
+msgid "Public"
+msgstr "Öffentlich"
+
+#: src/Networks/Mastodon.php:71
+msgid "Unlisted"
+msgstr "Nicht gelistet"
+
+#: src/Networks/Mastodon.php:72
+msgid "Followers only"
+msgstr "Nur Follower"
+
+#: src/Networks/Mastodon.php:77
+#: src/Networks/Webhook.php:57
+msgid "Character limit"
+msgstr "Zeichenlimit"
+
+#: src/Networks/Mastodon.php:81
+msgid "Some servers allow more than 500."
+msgstr "Manche Server erlauben mehr als 500."
+
+#: src/Networks/Mastodon.php:85
+msgid "Upload featured image"
+msgstr "Beitragsbild hochladen"
+
+#: src/Networks/Mastodon.php:87
+msgid "Off: Mastodon shows a link preview card instead."
+msgstr "Aus: Mastodon zeigt stattdessen eine Link-Vorschau."
+
+#: src/Networks/Telegram.php:46
+msgid "Create a bot with @BotFather and copy the token. Add the bot as administrator to your channel. Chat ID: @channelname for public channels, otherwise the numeric ID (e.g. -100…)."
+msgstr "Erstelle mit @BotFather einen Bot und kopiere das Token. Füge den Bot als Administrator zu deinem Kanal hinzu. Chat-ID: @kanalname bei öffentlichen Kanälen, sonst die numerische ID (z. B. -100…)."
+
+#: src/Networks/Telegram.php:55
+msgid "Bot token"
+msgstr "Bot-Token"
+
+#: src/Networks/Telegram.php:63
+msgid "Chat ID"
+msgstr "Chat-ID"
+
+#: src/Networks/Telegram.php:67
+msgid "e.g. @mychannel or -1001234567890"
+msgstr "z. B. @meinkanal oder -1001234567890"
+
+#: src/Networks/Telegram.php:71
+msgid "Send featured image"
+msgstr "Beitragsbild senden"
+
+#: src/Networks/Telegram.php:75
+msgid "With an image the text is limited to 1024 characters."
+msgstr "Mit Bild ist der Text auf 1024 Zeichen begrenzt."
+
+#: src/Networks/Telegram.php:78
+msgid "Disable link preview"
+msgstr "Link-Vorschau deaktivieren"
+
+#: src/Networks/Telegram.php:79
+msgid "Send silently (no notification sound)"
+msgstr "Still senden (ohne Benachrichtigungston)"
+
+#. translators: 1: bot name, 2: chat title
+#: src/Networks/Telegram.php:166
+#, php-format
+msgid "Bot @%1$s can reach \"%2$s\""
+msgstr "Bot @%1$s erreicht „%2$s“"
+
+#: src/Networks/Threads.php:41
+msgid "Create a Meta app with the \"Threads API\" use case and the permissions threads_basic and threads_content_publish, then generate a long-lived access token. PostVoyage refreshes it weekly so it does not expire."
+msgstr "Lege eine Meta-App mit dem Anwendungsfall „Threads API“ und den Berechtigungen threads_basic und threads_content_publish an und erzeuge ein langlebiges Zugriffstoken. PostVoyage erneuert es wöchentlich, damit es nicht abläuft."
+
+#: src/Networks/Threads.php:58
+msgid "User ID"
+msgstr "Benutzer-ID"
+
+#: src/Networks/Threads.php:60
+msgid "Optional, \"me\" is used by default."
+msgstr "Optional, standardmäßig wird „me“ verwendet."
+
+#: src/Networks/Threads.php:104
+msgid "Threads did not return a container ID."
+msgstr "Threads hat keine Container-ID zurückgegeben."
+
+#: src/Networks/Webhook.php:39
+msgid "Sends a JSON POST request with text, link, title, image URL, tags and language. With a secret, the header X-PostVoyage-Signature contains \"sha256=\" plus the HMAC of the body."
+msgstr "Sendet einen JSON-POST-Request mit Text, Link, Titel, Bild-URL, Schlagwörtern und Sprache. Mit Secret enthält der Header X-PostVoyage-Signature „sha256=“ plus den HMAC des Bodys."
+
+#: src/Networks/Webhook.php:49
+msgid "Signing secret"
+msgstr "Signatur-Secret"
+
+#: src/Networks/Webhook.php:53
+msgid "Optional."
+msgstr "Optional."
+
+#: src/Networks/Webhook.php:59
+msgid "Optional, empty = unlimited."
+msgstr "Optional, leer = unbegrenzt."
+
+#. translators: %d: HTTP status code
+#: src/Networks/Webhook.php:139
+#, php-format
+msgid "Webhook answered with HTTP %d"
+msgstr "Webhook antwortete mit HTTP %d"
+
+#: src/Networks/X.php:41
+msgid "Create a project and app at developer.x.com, set the app permissions to \"Read and write\" and then generate API key/secret and access token/secret. Note: how many posts the X API allows depends on your API plan."
+msgstr "Lege auf developer.x.com ein Projekt mit App an, setze die App-Berechtigungen auf „Read and write“ und erzeuge danach API-Key/-Secret und Access-Token/-Secret. Hinweis: Wie viele Posts die X-API erlaubt, hängt von deinem API-Tarif ab."
+
+#: src/Networks/X.php:53
+msgid "API key"
+msgstr "API-Key"
+
+#: src/Networks/X.php:54
+msgid "API key secret"
+msgstr "API-Key-Secret"
+
+#: src/Networks/X.php:56
+msgid "Access token secret"
+msgstr "Access-Token-Secret"
+
+#: src/Plugin.php:113
+msgid "When a post is published, this site sends the post title, excerpt, link and featured image to the social networks configured by the site owner (for example Mastodon, Bluesky, Telegram, Discord, Facebook, Threads, LinkedIn or X). No data about visitors is transmitted."
+msgstr "Wenn ein Beitrag veröffentlicht wird, sendet diese Website Titel, Textauszug, Link und Beitragsbild an die vom Betreiber eingerichteten sozialen Netzwerke (zum Beispiel Mastodon, Bluesky, Telegram, Discord, Facebook, Threads, LinkedIn oder X). Daten über Besucher werden nicht übertragen."
+
+#: src/Storage/AccountRepository.php:136
+msgid "Unknown network."
+msgstr "Unbekanntes Netzwerk."
+
+#. translators: %s: field label
+#: src/Storage/AccountRepository.php:165
+#, php-format
+msgid "Please fill in \"%s\"."
+msgstr "Bitte „%s“ ausfüllen."
+
+#: src/Storage/RuleRepository.php:112
+msgid "All posts"
+msgstr "Alle Beiträge"
+
+#: src/Storage/RuleRepository.php:145
+msgid "Unnamed rule"
+msgstr "Unbenannte Regel"
